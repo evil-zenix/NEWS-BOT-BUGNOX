@@ -1,0 +1,62 @@
+{
+  "token": "8232519763:AAGFiQMQBy5NuyxxkeK03ln_QYABdvw9_m0",
+  "moderation_group_id": -1002609802632,
+
+  "my_channel_link":  "https://t.me/cyvernews",
+  "my_channel_name":  "Cyver News",
+  "my_channel_emoji": "📢",
+
+  "target_channels": [
+    {"id": -1003730970349, "name": "Cyver News"}
+  ],
+
+  "max_posts_per_channel": 5,
+  "check_interval_seconds": 300,
+
+  "source_channels": [
+    "pressauz",
+    "topor_novostnoy",
+    "pda_4",
+    "afishauz"
+  ],
+
+  "blocked_keywords": [
+    "казино",
+    "ставки",
+    "криптовалюта",
+    "заработок",
+    "18+"
+  ],
+
+  "cleanup_rules": {
+    "_global": [
+      "Подписаться",
+      "Распространите сообщение",
+      "Subscribe",
+      "Поделиться",
+      "Telegram | Instagram | YouTube",
+      "Telegram | Instagram",
+      "Instagram | YouTube"
+    ],
+    "pressauz": [
+      "Пресса.uz",
+      "Прецса.uz",
+      "Новости Узбекистана",
+      "pressauz"
+    ],
+    "topor_novostnoy": [
+      "Топор | Подписаться",
+      "Топор",
+      "topor_novostnoy"
+    ],
+    "pda_4": [
+      "❤️ PDA",
+      "PDA",
+      "pda_4"
+    ],
+    "afishauz": [
+      "afishauz",
+      "Афиша"
+    ]
+  }
+}
